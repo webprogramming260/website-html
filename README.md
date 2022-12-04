@@ -22,3 +22,6 @@ Now that you know how HTML works it is time to put it to use and create your fir
 
 1. Open a browser window and verify that your new home page is showing up for your domain.
 1. Submit the URL for your website to the Canvas assignment along with something you found interesting about this assignment.
+
+
+Now, whenever you add a new project to your website you can just update the files contained in this repository and run the deployment script again. This way you can keep your website up to date with your progress through the instruction.
