@@ -15,7 +15,7 @@ Now that you know how HTML works it is time to put it to use and create your fir
 1. Using the console from your project directory, run the `deploy.sh` script to push your changes to your deployment environment. This script takes two parameters, the PEM file to allow secure access to your server, and your server's domain name.
 
    ```sh
-   ./deploy.sh  -k ~/keys/yourkeyfile.pem -h yourhostname
+   ./deploy.sh  -k <yourpemkey> -h <yourdomain>
    ```
 
    ⚠ Make sure you run the script in the project directory where the script resides.
