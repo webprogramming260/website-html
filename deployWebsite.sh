@@ -10,7 +10,7 @@ done
 
 if [[ -z "$key" || -z "$hostname" ]]; then
     printf "\nMissing required parameter.\n"
-    printf "  syntax: deploy.sh -k <pem key file> -h <hostname>\n\n"
+    printf "  syntax: deployWebsite.sh -k <pem key file> -h <hostname>\n\n"
     exit 1
 fi
 
