@@ -14,9 +14,8 @@ if [[ -z "$key" || -z "$hostname" ]]; then
     exit 1
 fi
 
-printf "\n-------------------------------\nDeploying root website to $hostname with $key\n-------------------------------\n"
+printf "\n----> Deploying root website to $hostname with $key\n-------------------------------\n"
 
-# Step 1 - If new files are added to your home page they must be added to the copy.
-#          Currently this copies all files found in the current directory.
+# Step 1 - Copy all files found in the current directory.
 printf "\n----> Copy the home page files to the target.\n"
 scp -r -i $key * ubuntu@$hostname:public_html/
