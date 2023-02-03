@@ -18,4 +18,4 @@ printf "\n----> Deploying root website to $hostname with $key\n-----------------
 
 # Step 1 - Copy all files found in the current directory.
 printf "\n----> Copy the home page files to the target.\n"
-scp -r -i $key * ubuntu@$hostname:public_html/
+scp -r -i "$key" * ubuntu@$hostname:public_html/
