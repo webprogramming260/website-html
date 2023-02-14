@@ -1,4 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 * {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #1b1625;
+  text-align: center;
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 48px;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration:none;
+  color:#2e2c31
+}
+a:hover {
+  color:#533294;
+  border:#533294 solid;
+}
+a:active {
+  background-color: #533294;
+  color:#533294;
+  
+}
+
+p {
+  padding-left: 200px;
+  padding-right:200px;
+  font-size: 24px;
 }

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+body {
+  margin:0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+#container {
+  color: #999;
+  font-size:36px;
+  font-weight:bold;
+  padding-top:200px;
+  position:fixed;
+  width:100%;
+  bottom:45%;
+  display:block;
+}
+
+#flip {
+  height: 50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#0C0F1C;
+  padding: 4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 12s linear;
+}
+
+#you:hover {
+  border:#7542B3 2px solid;
+  animation: grow 5s linear;
+}
+#you:click {
+  animation: show 12s linear;
+}
+
+@keyframes show {
+  0% {margin-top:-280px;}
+  10% {margin-top:-280px;}
+  20% {margin-top:-280px;}
+  25% {margin-top:-185px;}
+  33% {margin-top:-185px;}
+  40% {margin-top:-185px;}
+  45% {margin-top:-185px;}
+  50% {margin-top:-95px;}
+  66% {margin-top:-95px}
+  70% {margin-top:-95px;}
+  75% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+}
+
+@keyframes grow {
+  0% {font-size:36px;}
+  50% {font-size:72px;}
+  100% {font-size:36px;}
+}
+
+p {
+  position:fixed;
+  width:100%;
+  bottom:30px;
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
