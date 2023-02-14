@@ -40,4 +40,5 @@ p {
 }
 ul {
   font-size: 24px;
+  list-style-type: none;
 }
